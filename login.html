@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/touch-0.2.14.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="div_1"><img src="./image/index/logo.jpg" alt=""></div>
+        <div class="div_2">
+            <a href="#"><img src="./image/index/my.jpg" alt=""></a>
+            <a href="#"><img src="./image/index/xiazai.jpg" alt=""></a>
+        </div>
+    </header>
+    <!-- 中间部分 -->
+    <div class="div_3">
+        <strong>首页 ></strong><span class="v">我的 > 我的关注的小区</span>
+    </div>
+
+    <div class="div_4">
+        <a href="#" class="a1 a11">普通登录</a>
+        <a href="#" class="a2 a22">验证码快捷登录</a>
+    </div>
+    <div class="l">
+        <div class="ll"></div>
+        <div class="lll"></div>
+    </div>
+
+
+    <form action="">
+        <input type="text" placeholder="请输入手机号">
+        <input type="password" placeholder="请输入密码">
+        <button>立即登录</button>
+    </form>
+    <form action="" class="fon">
+        <input type="text" placeholder="请输入手机号">
+        <input type="text" placeholder="请输入短信中的验证码">
+        <button>验证并登录</button>
+        <div class="jj">发送验证码</div>
+    </form>
+
+
+    <p class="p1">
+        <span class="pp">立即注册</span>
+        <span class="qq">忘记密码</span>
+    </p>
+
+
+
+</body>
+
+</html>
+<script src="./js/login.js"></script>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        console.log(ui_w, clientWidth);
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+</script>

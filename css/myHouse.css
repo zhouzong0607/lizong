@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 10px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+/* 头部 */
+header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF8A00;
+}
+
+.div_1 {
+    width: 10rem;
+    margin-left: 4rem;
+}
+
+.div_1>img {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.div_2 {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.div_2>a {
+    width: 5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_2>a>img {
+    width: 60%;
+    height: 60%;
+}
+
+/* 中间部分 */
+.div_3 {
+    width: 100%;
+    height: 5rem;
+    background-color: #FFFFFF;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    border-bottom: .1rem solid #555555;
+}
+
+.div_3>strong {
+    margin-left: 2rem;
+}
+
+
+/* 下边房子信息内容 */
+.ul_2 {
+    width: 100%;
+    /* height: 100rem; */
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+.ul_2>li {
+    width: 85%;
+    height: 14rem;
+    margin: 1rem auto;
+    /* background-color: red; */
+    border-bottom: 1px solid #FABB6F;
+    display: flex;
+}
+
+.div_5 {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1rem;
+    background-color: #555555;
+}
+
+.div_5>img {
+    width: 100%;
+    height: 100%;
+}
+
+.div_6 {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    /* background-color: red; */
+    flex: 1;
+}
+
+.div_6>p {
+    font-size: 1.4rem;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.div_6>span {
+    display: inline-block;
+    width: 6.5rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2.5rem;
+
+    margin-top: 1rem;
+
+}
+
+.div_6>span:nth-of-type(2) {
+    border: 0;
+    color: #ff8a00;
+    margin-left: 5.3rem;
+    font-weight: 600;
+}
