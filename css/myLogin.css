@@ -1,0 +1,60 @@
+.nav {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+}
+
+.nav span {
+    font-weight: 600;
+}
+
+.ueserLogin {
+    height: 16.5rem;
+    position: relative;
+    background: url(../image/my/bg2.png) no-repeat;
+    background-size: cover;
+}
+
+.ueserLogin img {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-top: 2.5rem;
+    margin-left: 16rem;
+}
+
+.ueserLogin p {
+    font-size: 1.4rem;
+    color: white;
+    position: absolute;
+    left: 11.5rem;
+    bottom: 2.5rem;
+}
+
+.myLoginList {
+    padding: 0 1.5rem;
+}
+
+.myLoginList li a {
+    display: block;
+    font-size: 1.4rem;
+    color: rgb(102, 102, 102);
+    height: 5rem;
+    line-height: 5rem;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    background: url(../image/my/right.png) no-repeat center right;
+    background-size: 1rem 1.5rem;
+}
+
+.loginBtn {
+    display: block;
+    width: 90%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.4rem;
+    margin: 4rem auto;
+    text-align: center;
+    background-color: white;
+    color: rgb(255, 138, 0);
+    border: 2px solid rgb(236, 236, 236);
+}

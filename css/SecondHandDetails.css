@@ -1,0 +1,244 @@
+section {
+    margin-top: 1rem;
+    border-top: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.mianText {
+    margin-top: 0;
+    border-top: none;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.mianText h2 {
+    font-size: 2.2rem;
+}
+
+.mianText p:nth-of-type(1) {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    background: url(../image/SecondHandList/phone.png) no-repeat right center;
+    background-size: contain;
+}
+
+.mianText p:nth-of-type(1) span {
+    color: rgb(219, 76, 63);
+    font-weight: 700;
+}
+
+.mianText p:nth-of-type(2) {
+    color: rgb(176, 176, 176);
+    font-size: 1.4rem;
+}
+
+.mianText ul {
+    display: flex;
+    justify-content: left;
+    margin-top: 1rem;
+}
+
+.mianText li {
+    padding: .5rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    background-color: rgb(222, 233, 240);
+    color: rgb(132, 154, 174);
+}
+
+.content li {
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.content li span {
+    display: inline-block;
+    width: 50%;
+}
+
+.tp {
+    height: 6rem;
+    color: rgb(153, 153, 153);
+    line-height: 6rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.caption {
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 2rem;
+    color: rgb(255, 147, 38);
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.content7 p:nth-of-type(1) {
+    padding: 1.5rem 0;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+}
+
+.content7 p:nth-of-type(2) {
+    border-top: 1px solid rgb(234, 234, 234);
+}
+
+.content3 li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.content3 li:nth-of-type(1) {
+    border-bottom: 2px solid rgb(255, 147, 38);
+}
+
+.content3 .img {
+    width: 30%;
+    height: 9rem;
+    margin-right: 1.5rem;
+}
+
+.content3 .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content3 .text {
+    width: 70%;
+}
+
+.content3 .text h1 {
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.content3 .text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.sp a {
+    background-color: rgb(222, 233, 240);
+    color: rgb(132, 154, 174);
+    padding: .5rem;
+}
+
+.content4 .caption {
+    color: black;
+}
+
+.content4 ul li span {
+    display: inline;
+    color: rgb(153, 153, 153);
+}
+
+.content5 .caption {
+    color: black;
+}
+
+.content5 img {
+    padding: 2rem 0;
+}
+
+.content6 {
+    overflow: hidden;
+    position: relative;
+    height: 54rem;
+}
+
+.content6 ul li:nth-of-type(1) {
+    padding-bottom: 5rem;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.content6 .caption {
+    color: black;
+}
+
+.content6 .text h1 {
+    font-size: 2.2rem;
+}
+
+.content6 .text p span {
+    float: right;
+}
+
+.content6 .text p:nth-of-type(1) span {
+    color: rgb(255, 138, 0);
+    font-weight: 700;
+}
+
+.content6 .text p:nth-of-type(2) {
+    color: rgb(153, 153, 153);
+}
+
+.content6 .tp {
+    width: 90%;
+    position: absolute;
+    border-top: 1px solid rgb(234, 234, 234);
+    bottom: 0rem;
+}
+
+.recommend {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: rgb(242, 242, 242);
+    position: relative;
+    top: -2rem;
+}
+
+.recommend span {
+    display: inline-block;
+    height: 0px;
+    width: 0px;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid rgb(242, 242, 242);
+    position: absolute;
+    left: 2rem;
+    top: -1rem;
+}
+
+.recommend2 {
+    top: -27rem;
+}
+
+.content8 {
+    height: 7rem;
+    line-height: 7rem;
+    border: none;
+    margin: 0;
+}
+
+.content8 a {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.content8 a:nth-of-type(1) {
+    width: 24rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    color: white;
+    border-radius: .5rem;
+    background: url(../image/SecondHandList/user.png) no-repeat 4rem .5rem;
+    background-color: rgb(255, 138, 0);
+    background-size: 3rem;
+}
+
+.content8 a:nth-of-type(2) {
+    width: 7rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    padding-left: 2rem;
+    color: black;
+    background: url(../image/SecondHandList/xin.png) no-repeat .5rem .8rem;
+    background-size: 3rem;
+}
