@@ -153,19 +153,15 @@
     height: 5rem;
     line-height: 5rem;
     text-align: center;
+    color: rgb(102, 102, 102);
 }
 
-.title>li:nth-of-type(1) {
+.title .yp {
+    color: rgb(255, 138, 0);
     border-bottom: .1rem solid rgb(255, 138, 0);
 }
 
-.title>li:nth-of-type(1) a {
-    color: rgb(255, 138, 0);
-}
 
-.title>li:nth-of-type(2) a {
-    color: rgb(102, 102, 102);
-}
 
 .content {
     display: flex;

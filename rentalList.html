@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/rentalList.css">
+    <link rel="stylesheet" href="./css/SecondHandList.css">
+    <link rel="stylesheet" href="./css/head.css">
     <script src=""></script>
 </head>
 
 <body>
     <!-- 头部 -->
     <header>
-        <div class="div_1"><img src="./image/index/logo.jpg" alt=""></div>
-        <div class="div_2">
-            <a href="#"><img src="./image/index/my.jpg" alt=""></a>
-            <a href="#"><img src="./image/index/xiazai.jpg" alt=""></a>
+        <h1><a href="#"><img src="image/index/logo.jpg" alt="" /></a></h1>
+        <div class="icon">
+            <a href="./my.html"><img src="image/index/my.jpg" alt="" /></a>
+            <a href="#"><img src="image/index/xiazai.jpg" alt="" /></a>
         </div>
     </header>
     <!-- 中间部分 -->
     <div class="div_3">
-        <strong class="stong">首页 ></strong><span>北京租房</span>
+        <strong>首页 ></strong><span>北京租房</span>
     </div>
     <!-- input框 -->
     <div class="div_4">
@@ -29,12 +30,139 @@
         <span>|</span>
     </div>
     <!-- 区域 -->
-    <ul class="ul_1">
-        <li class="aa">区域 <span></span></li>
-        <li class="aa">月租 <span></span></li>
-        <li class="aa">房型 <span></span></li>
-        <li class="aa">更多 <span></span></li>
-    </ul>
+    <section class="secondList">
+        <!--遮罩层-->
+        <div class="hide"></div>
+
+        <ul class="list">
+            <li>
+                <!--添加active类名就可以改变小箭头的方向和颜色-->
+                <h2>区域<span></span></h2>
+            </li>
+            <li>
+                <h2>月租<span></span></h2>
+            </li>
+            <li>
+                <h2>房型<span></span></h2>
+            </li>
+            <li>
+                <h2>更多<span></span></h2>
+            </li>
+        </ul>
+        <ul class="someList">
+            <!--区域-->
+            <li class="area item">
+                <div class="title">
+                    <h2 class="active">区域</h2>
+                    <h2>地铁</h2>
+                </div>
+                <div class="hideList">
+                    <div>
+                        <ul>
+                            <li><a href="#">附近</a></li>
+                            <li><a class="active" href="#">不限</a></li>
+                            <li><a href="#">不限</a></li>
+                            <li><a href="#">安贞</a></li>
+                            <li><a href="#">朝阳</a></li>
+                            <li><a href="#">奥林匹克公园</a></li>
+                            <li><a href="#">海淀</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">百子湾</a></li>
+                            <li><a href="#">昌平</a></li>
+                            <li><a href="#" class="active">北工大</a></li>
+                            <li><a href="#">丰台</a></li>
+                            <li><a href="#">北苑</a></li>
+                            <li><a href="#">石景山</a></li>
+                            <li><a href="#">CBD</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <!--价格-->
+            <li class="price item">
+                <ul>
+                    <li><a href="#">不限</a></li>
+                    <li><a href="#">100万以下</a></li>
+                    <li><a href="#">100万-150万</a></li>
+                    <li><a href="#">150万-200万</a></li>
+                    <li><a href="#">200万-250万</a></li>
+                    <li><a href="#">250万-300万</a></li>
+                    <li><a href="#">自定义价格</a></li>
+                </ul>
+            </li>
+            <!--房型-->
+            <li class="house item">
+                <ul>
+                    <li>不限</li>
+                    <li>
+                        1室 <span></span>
+                    </li>
+                    <li>
+                        2室 <span class="active"></span>
+                    </li>
+                    <li>
+                        3室 <span></span>
+                    </li>
+                    <li>
+                        4室 <span></span>
+                    </li>
+                    <li>
+                        5室 <span></span>
+                    </li>
+                    <li><a class="btnOK" href="#">确定</a></li>
+                </ul>
+            </li>
+            <!--更多-->
+            <li class="more item">
+                <ul>
+                    <li>
+                        <h3>区域</h3>
+                        <ul class="childList">
+                            <li>南</li>
+                            <li>南北</li>
+                            <li>东</li>
+                            <li>西</li>
+                            <li>北</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>面积（平方）</h3>
+                        <ul class="childList">
+                            <li>50以下</li>
+                            <li>50-70</li>
+                            <li>70-90</li>
+                            <li>90-110</li>
+                            <li>110-130</li>
+                            <li>130-150</li>
+                            <li>150-200</li>
+                            <li>200以上</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>标签</h3>
+                        <ul class="childList">
+                            <li>学区房</li>
+                            <li>地铁房</li>
+                            <li>不限购</li>
+                            <li>满两年</li>
+                            <li>满五唯一</li>
+                            <li>降价</li>
+                            <li>新上</li>
+                            <li>独家</li>
+                            <li>有钥匙</li>
+                        </ul>
+                    </li>
+
+
+                    <li class="clear"><a href="#">清空条件</a></li>
+                    <li class="btnOK"><a href="#">确定</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
     <!-- 下边房子信息内容 -->
     <ul class="ul_2">
         <li>
@@ -98,159 +226,94 @@
             </div>
         </li>
     </ul>
-    <!-- 底部 -->
-    <div class="div_7">
-        <p>北京找房无忧 > 首页</p>
-        <ul class="ul_3">
-            <li>
-                <div><img src="./image/index/apple.png" alt=""></div>
-                <div>
-                    <p>iPhone</p>
-                    <p>客户端</p>
-                </div>
-
-            </li>
-            <li>
-                <div> <img src="./image/index/android.png" alt=""></div>
-                <div>
-                    <p>Android</p>
-                    <p>客户端</p>
-                </div>
-            </li>
-        </ul>
-        <div class="div_8">
-            <p>北京找房无忧房地产经纪公司</p>
-            <p>网络经营许可证京ICP备20160812号</p>
+    <ul class="ul_2">
+        <li>
+            <div class="div_5">
+                <img src="./image/rentalList/img1.png" alt="">
+            </div>
+            <div class="div_6">
+                <h2>南沙滩小区 超低价急售</h2>
+                <p>南北高楼层/6层</p>
+                <p class="mm">签约价格:13244元/平<span>1150万</span> </p>
+                <p class="mm">签约日期:2015年11月10日</p>
+            </div>
+        </li>
+        <li>
+            <div class="div_5">
+                <img src="./image/rentalList/img2.png" alt="">
+            </div>
+            <div class="div_6">
+                <h2>青年汇二期 免税三居</h2>
+                <p>南北高楼层/6层</p>
+                <p class="mm">签约价格:13244元/平<span>905万</span> </p>
+                <p class="mm">签约日期:2015年11月10日</p>
+            </div>
+        </li>
+        <li>
+            <div class="div_5">
+                <img src="./image/rentalList/img3.png" alt="">
+            </div>
+            <div class="div_6">
+                <h2>博雅德源稀缺两居 钥匙房源</h2>
+                <p>南北高楼层/6层</p>
+                <p class="mm">签约价格:13244元/平<span>1322万</span> </p>
+                <p class="mm">签约日期:2015年11月10日</p>
+            </div>
+        </li>
+        <li>
+            <div class="div_5">
+                <img src="./image/rentalList/img3.png" alt="">
+            </div>
+            <div class="div_6">
+                <h2>博雅德源稀缺两居 钥匙房源</h2>
+                <p>南北高楼层/6层</p>
+                <p class="mm">签约价格:13244元/平<span>1322万</span> </p>
+                <p class="mm">签约日期:2015年11月10日</p>
+            </div>
+        </li>
+        <li>
+            <div class="div_5">
+                <img src="./image/rentalList/img3.png" alt="">
+            </div>
+            <div class="div_6">
+                <h2>博雅德源稀缺两居 钥匙房源</h2>
+                <p>南北高楼层/6层</p>
+                <p class="mm">签约价格:13244元/平<span>1322万</span> </p>
+                <p class="mm">签约日期:2015年11月10日</p>
+            </div>
+        </li>
+    </ul>
+    <footer class="copyright">
+        <h2>北京找房无忧 > 首页</h2>
+        <div class="content2">
+            <ul>
+                <li>
+                    <img src="image/index/apple.png" alt="" />
+                    <div>
+                        <p>iPhone</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="image/index/android.png" alt="" />
+                    <div>
+                        <p>Android</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="text">
+                <p>北京找房无忧房地产经纪公司</p>
+                <p>网络经营许可证京ICP备20160812号</p>
+            </div>
         </div>
-    </div>
-    <!-- 蒙版 -->
-    <div class="mb"></div>
-    <!-- 隐藏部分 -->
-    <div class="yc bb">
-        <ul class=" ul_4">
-            <li class="ii">区域 <span></span></li>
-            <li>月租 <span></span></li>
-            <li>房型 <span></span></li>
-            <li>更多 <span></span></li>
-        </ul>
-        <!-- <div class="hh"> -->
-        <div class="dt">
-            <a href="#">区域</a>
-            <a href="#">地铁</a>
-        </div>
-        <ul class="quyu">
-            <li>附近</li>
-            <li class="li1">不限</li>
-            <li>不限</li>
-            <li>安贞</li>
-            <li class="li2">朝阳</li>
-            <li>奥林匹克公园</li>
-            <li>海淀</li>
-            <li>百子湾</li>
-            <li>昌平</li>
-            <li>北工大</li>
-            <li>丰台</li>
-            <li>北苑</li>
-            <li>石景山</li>
-            <li>CBD</li>
-        </ul>
-        <!-- </div> -->
-    </div>
-
-
-    <div class="yc2 bb">
-        <ul class=" ul_4">
-            <li>区域 <span></span></li>
-            <li>月租 <span></span></li>
-            <li>房型 <span></span></li>
-            <li>更多 <span></span></li>
-        </ul>
-        <!-- <div class="hh"> -->
-        <ul class="ul_5">
-            <li>不限</li>
-            <li>100万以下</li>
-            <li>100万-150万</li>
-            <li>150万-200万</li>
-            <li>200万-250万</li>
-            <li>250万-300万</li>
-            <li>自定义价格</li>
-        </ul>
-        <!-- </div> -->
-    </div>
-    <!-- 隐藏第三页 -->
-    <div class="yc3 bb">
-        <ul class=" ul_4">
-            <li>区域 <span></span></li>
-            <li>月租 <span></span></li>
-            <li>房型 <span></span></li>
-            <li>更多 <span></span></li>
-        </ul>
-        <!-- <div class="hh"> -->
-        <ul class="ul_6 ">
-            <li>不限</li>
-            <li>1室 <span></span></li>
-            <li>2室 <span class="dh"></span></li>
-            <li>3室 <span></span></li>
-            <li>4室 <span></span></li>
-            <li>5室 <span></span></li>
-            <li class="ok">确定</li>
-        </ul>
-        <!-- </div> -->
-    </div>
-
-    <!-- 隐藏第四页 -->
-    <div class="yc4 bb">
-        <ul class=" ul_4">
-            <li>区域 <span></span></li>
-            <li>月租 <span></span></li>
-            <li>房型 <span></span></li>
-            <li>更多 <span></span></li>
-        </ul>
-        <!-- <div class="hh"> -->
-        <h3>区域</h3>
-        <ul class="ul_7">
-            <li>南</li>
-            <li>南北</li>
-            <li>东</li>
-            <li>西</li>
-            <li>北</li>
-        </ul>
-
-        <h3>面积（平方）</h3>
-        <ul class="ul_7">
-            <li>50以下</li>
-            <li>50-70</li>
-            <li>70-90</li>
-            <li>90-110</li>
-            <li>110-130</li>
-            <li>110-130</li>
-            <li>110-130</li>
-            <li>110-130</li>
-        </ul>
-
-        <h3>标签</h3>
-        <ul class="ul_7">
-            <li>学区房</li>
-            <li>地铁房</li>
-            <li>不限购</li>
-            <li>满两年</li>
-            <li>满五唯一</li>
-            <li>降价</li>
-            <li>新上</li>
-            <li>独家</li>
-            <li>有钥匙</li>
-        </ul>
-
-        <div class="div1">清空条件</div>
-        <div class="div2">确定</div>
-        <!-- </div> -->
-    </div>
+    </footer>
 
 </body>
 
 </html>
 <script src="./js/touch-0.2.14.min.js"></script>
-<script src="./js/rentalList.js"></script>
+<script src="./js/jQuery.min.js"></script>
 <script>
     function setRem() {
         var ui_w = 375;
@@ -264,4 +327,30 @@
     }
     // window.onresize 浏览器被重置大小执行事件
     window.onresize = setRem;
+</script>
+<script>
+    $(function () {
+        $(".list li").click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+            var index = $(this).index();
+            console.log(index);
+            $(".someList .item").eq(index).show().siblings().hide();
+            $('.list').css({
+                'position': 'fixed',
+                'top': '0',
+                'left': '0'
+            });
+            $('.hide').show();
+        })
+    })
+    $(function () {
+        $('.hide').click(function () {
+            $('.list').css({
+                'position': ''
+            });
+            $('.hide').hide();
+            $(".list li").removeClass("active");
+            $(".someList .item").hide();
+        })
+    })
 </script>
